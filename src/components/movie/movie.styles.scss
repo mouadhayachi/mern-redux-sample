@@ -1,0 +1,26 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 250px;
+  height: 480px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+
+  .img-style {
+    width: 250px;
+    height: 250px;
+  }
+
+  .btn-delete {
+    position: absolute;
+    right: 0;
+    border-color: transparent;
+    background-color: red;
+    color: white;
+    width: 30px;
+    border-radius: 0 4px 0;
+  }
+}
